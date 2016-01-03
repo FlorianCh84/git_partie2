@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'MondaRegular';
+    src: url('Monda-Regular.ttf');
+}
+
+body
+{
+	background: url("footer_lodyas.png") fixed;
+	font-family: Arial;
+	color: #fff;
+}
+
+/*Titres*/
+h1, h2
+{
+	font-family: 'MondaRegular', Arial;
+}
+
+h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 2px 10px #66CCFF;
+}
+
+h2
+{
+	color: #66CCFF;
+	text-decoration: overline;
+	text-transform: uppercase;
+}
+
+/*Liens*/
+a
+{
+	text-decoration: none;
+	color: #66CCFF;
+}
+
+/*Photo*/
+figure
+{
+	margin-top: -6%;
+	float: right;
+	max-width: 150px;
+	border: #66CCFF 1px solid;
+	background-color: rgba(235 , 235 , 235 , 0.6);
+}
+
+figcaption a, #citation
+{
+	font-size: 0.8em;
+	color: #404040;
+}
+
+#clear
+{
+	clear: both;
+}
+
+/*Contenu*/
+#paragraphe
+{
+	text-align: justify;
+}
+
+#citation
+{
+	font-style: italic;
+	text-align: center;
+	background-image: url("hexellence2.png");
+	padding: 3em 0 3em 0;
+}
